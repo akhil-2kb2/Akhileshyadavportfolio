@@ -8,6 +8,7 @@ import Image from "next/image";
 import grainImage from "@/assets/images/grain.jpg";
 import { Card } from "@/components/Card";
 import { Fragment } from "react";
+//import { HeroSection } from "./Hero";
 
 const testimonials = [
   {
@@ -44,7 +45,7 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
   return (
-    <div className="py-16 lg:py-24">
+    <div id="testimonials" className="py-16 lg:py-24">
       <div className="container">
         <SectionHeader eyebrow="Happy Clients" title="What Client Say About Me" description="Don't just take my word for it. See what my clients have to say about my work."
         />

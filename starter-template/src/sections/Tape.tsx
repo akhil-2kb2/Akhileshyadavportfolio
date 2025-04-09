@@ -29,7 +29,7 @@ export const TapeSection = () => {
                           className="text-gray-900 uppercase font-extrabold text-sm">    
                           {word}
                       </span>
-                      <StarIcon className="size-6 text-gray-900 -rotate-12"/>
+                      <StarIcon className="size-6 text-gray-900 -rotate-12 animate-spin"/>
                     </div>
                   ))}
                   </Fragment>

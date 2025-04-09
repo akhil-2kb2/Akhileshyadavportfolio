@@ -10,8 +10,8 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
+    company: "My Projects",
+    year: "2024",
     title: "Dark Saas Landing Page",
     results: [
       { title: "Enhanced user experience by 40%" },
@@ -49,9 +49,9 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
- <section className="pb-16 lg:py-24">   
+ <section id="projectsection" className="pb-16 lg:py-24">   
   <div className="container">
-    <SectionHeader eyebrow="Real-World Results" title="Featured Projects" description="See how I transformed concepts into engaging digital experiences." />
+    <SectionHeader eyebrow="Making Ideas Work" title="Featured Projects" description="From initial brainstorming to final deployment, discover how every project is crafted with purpose and precision." />
 
     <div className="mt-10 md:mt-20 flex flex-col gap-20">
       {portfolioProjects.map((project, projectIndex) =>(

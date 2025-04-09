@@ -8,7 +8,7 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 
 export const HeroSection = () => {
   return (
-  <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+  <div id="home" className="py-32 scroll-mt-28 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
     <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
        <div
          className="absolute inset-0 -z-30 opacity-5"
@@ -81,11 +81,11 @@ export const HeroSection = () => {
       </div> 
      <div className="max-w-lg mx-auto">
        <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-        Building Exceptional User Experiences
+       Designing with Purpose, Building with Precision
        </h1>
 
         <p className="mt-4 text-center text-white/60 md:text-lg">
-        I specialize in transforming designs into functional, high-performing web applications. Let&apos;s discuss your next project.
+        From design to deployment, I craft web apps that deliver results. Let’s talk about your next idea.
         </p>
      </div>
 
